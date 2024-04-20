@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(./assets/a-alloy-ink-font/AlloyInk-nRLyO.ttf),
+        url(./assets/a-alloy-ink-font//AlloyInk-lgdWw.otf);
+}
+
+h1 {
+    padding: 15px;
+font-family: myFont;
+font-size: 60px;
+}           
+.list {
+color:white;
+}
+.nav {
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 30px;
+font-weight: bold;
+padding-left: 150px;
+}
+body {
+margin: 0;
+background-color: black;
+font-family: myFont;
+}
+
+.main-container {
+display: flex;
+justify-content: center;
+}
+
+.controls {
+    /* border: white solid 1px;  */
+    margin: 30px;
+    padding-bottom: 30px;
+}
+
+.left-container {
+    text-align: center;
+    margin-top: 30px; 
+    margin-right: 40px;
+    height: 500px;
+    box-sizing: border-box;
+}   
+.control {
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.list {
+    font-size: 20px;
+}
+
+.instructions {
+    color: white;
+    width: 170px;
+    padding: 15px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.right-container {
+    text-align: center;
+    margin-left: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}   
+
+.github {
+    margin-top: 70px;
+}
+
+.icon {
+    border-radius:  70%;
+    height: auto;
+    width: 100px;
+    margin-bottom: 35px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    margin-top: 14px;
+    font-size: 18px;
+}
